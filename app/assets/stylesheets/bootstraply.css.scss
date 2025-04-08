@@ -1,0 +1,17 @@
+@import "bootstrap";
+
+table {
+    a {
+        color: unset;
+        text-decoration: none;
+        &:hover {
+            color: $primary;
+        }
+    }
+    .striker {
+        text-decoration: line-through;
+        color: gray;
+    }
+}
+
+

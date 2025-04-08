@@ -1,0 +1,8 @@
+</br>
+<% flash.each do |name, msg| %>
+    <div class="alert alert-warning alert-dimissible row align-items-center">
+        <%= content_tag(:div, msg, class: 'col-10') %>
+        <div class="col-2 align-self-end text-end close" data-dismiss="alert">x</div>
+    </div>
+<% end %>
+    
